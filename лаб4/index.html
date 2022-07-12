@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Маятник</title>
+    <script src="pendulum.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+   <script src="whowroteit.js"></script>
+</header>
+<div class="container">
+<canvas id="Pendulum" width="800" height="600">
+</canvas>
+    <div class="form">
+        <label for="Length">Length</label>
+    <input type="text" id="Length" value="50"/>
+        <label for="Angle">Angle</label>
+    <input type="text" id="Angle" value="45"/>
+    <button onclick="go()" id="goButton">Draw</button>
+        <button id="beginButton" onclick="begin()">Begin</button>
+        <button id="stopButton" onclick="stop()">Stop</button>
+    </div>
+</div>
+</body>
+</html>
